@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+/* 구글 폰트에서 임포트로 퍼오면 태그가 따로 필요없다 */
+
+body{
+  background-color: rgb(97, 95, 95);
+  font-family: 'Play', sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}

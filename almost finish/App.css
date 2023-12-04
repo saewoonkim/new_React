@@ -1,0 +1,42 @@
+.game {
+  width: 100%;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: row; 
+  /* 한줄로 붙게 된다 */
+  /* height: 100vh; */
+  justify-content: center; 
+  /* 게임박스를 위에서 정중앙으로 보낸다 */
+  align-items: center;
+  /* 게임박스를 중앙으로 보낸다 */
+  
+}
+
+.game-info {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  /* margin-left: 10px;
+  게임 인포에 왼쪽을 줘야 지 떨어지기때문에 왼쪽 마진을 준거다 */
+
+.m-button {
+  width: 200px;
+  font-size: 20px;
+  font-family: 'Play', sans-serif;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  background: #9b9b9b;
+  padding: 5px;
+  color: rgb(26, 25, 25);
+  /* 글자색깔 */
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 0px black;
+   /* 오른쪽, 아래, 전체옅은그림자, 전체 굵게  */
+}
